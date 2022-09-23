@@ -9,14 +9,55 @@
 }
 
 .header-top {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: tan;
+}
+
+.header-middle-small-mobile {
+    display: flex;
+    background-color: pink;
+    height: 150px;
+    width: 100%;
+}
+
+/**** RESPONSIVE THINGS ****/
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+    
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .header-top {
    position: relative;
    width: 100%;
-   height: 400px;
+   height: 300px;
    background-color: tan;
 }
 
-.header-middle {
+.header-middle-desktop {
     position: absolute;
     background-color: pink;
+    height: 200px;
+    width: 600px;
+    top: 66.66%;
+    right: 50%;
+    margin-right: -300px;
 }
 
+.header-middle-small-mobile {
+    display: flex;
+    background-color: pink;
+    height: 0;
+    width: 0;
+}
+
+}
