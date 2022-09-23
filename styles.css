@@ -1,0 +1,16 @@
+.header-container {
+    
+}
+
+.header-top {
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background-color: tan;
+}
+
+.header-middle {
+    position: absolute;
+    background-color: pink;
+}
+
