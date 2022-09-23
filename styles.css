@@ -52,15 +52,21 @@ h1 {
 }
 
 /****BODY****/
+.body-container {
+    margin-top: 150px;
+}
+
 .body {
     height: 1000px;
 }
+
+
 
 /**** RESPONSIVE THINGS ****/
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-    
+
 }
 
 /* Tablet Styles */
@@ -79,6 +85,10 @@ h1 {
 
 .title {
     top: 100%;
+}
+
+.body-container {
+    margin-top: 150px;
 }
     
 }
@@ -99,6 +109,10 @@ h1 {
 
 .title {
     top: 100%;
+}
+
+.body-container {
+    margin-top: 150px;
 }
 
 
