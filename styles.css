@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.navbar-brand {
+    height: 50px;
+}
+
 .header-container {
     
 }
