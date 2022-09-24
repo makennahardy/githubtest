@@ -14,11 +14,16 @@
 
 .header-container {
     border: 3px solid yellow;
+    display: flex;
+    align-content: center;
 }
 
 
 h1 {
   font-size: 50px;
+}
+.footer {
+    margin-top: 10px;
 }
 
 
@@ -48,8 +53,22 @@ h1 {
     margin-right: -165px;
 }
 
-
-
+.recipe-title {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    top: 50%;
+    margin-top: -40px;
+    right: 50%;
+    margin-right: -135px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+ol {
+    list-style-type: upper-roman
+}
 .title {
     position: absolute;
     width: 260px;
@@ -61,10 +80,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     vertical-align: middle;
-<<<<<<< HEAD
     font-weight: lighter;
-=======
->>>>>>> c9784b25d240b0aa2fa0e3fd4748c30b7842a2a4
 }
 
 
@@ -96,6 +112,10 @@ h1 {
 }
 img {
     max-width: 100%;
+}
+.recipe {
+    text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -154,6 +174,14 @@ img {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+.ingredients {
+    text-align: left;
+    padding-left: 10px;
+}
+.ingredients-and-picture {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+}
 .header-top {
    height: 300px;
 }
