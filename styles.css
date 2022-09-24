@@ -14,6 +14,7 @@
 
 .header-container {
     border: 3px solid yellow;
+    font-weight: lighter;
 }
 
 
@@ -21,6 +22,9 @@ h1 {
   font-size: 50px;
 }
 
+hr {
+  border-top: 3px double #ccd5ae;  
+}
 
 .header-top {
     position: relative;
@@ -76,9 +80,22 @@ h1 {
 
 .featured-recipe-body {
     display: flex;
-    height: 500px;
+    height: auto;
     width: 100%;
+    margin: auto;
+    height: auto;
     border: 3px solid purple;
+    margin-top: 150px;
+}
+
+.carousel-body {
+    margin-bottom: 150px;
+}
+
+.featured-recipe-body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -131,9 +148,13 @@ h1 {
     width: 50%;
     height: auto;
     border: 3px solid green;
+    margin-bottom: 150px;
 
 }
-    
+  
+  .featured-recipe-body {
+    width: 50%;
+}  
 }
 
 /* Desktop Styles */
@@ -177,10 +198,18 @@ h1 {
     width: 50%;
     height: auto;
     border: 3px solid green;
+    margin-bottom: 150px;
 
 }
 
+.featured-recipe-body {
+    margin-top: 150px;
+    width: 50%;
+}
 
+.featured-recipe-body {
+    width: 50%;
+}
 
 
 }
