@@ -60,17 +60,14 @@ h1 {
     right: 50%;
     margin-right: -135px;
     font-size: 50px;
-<<<<<<< HEAD
     text-align: center;
     vertical-align: middle;
-=======
     font-weight: lighter;
->>>>>>> 58fab6fde39f469594c8f07ce8bfc8098e26050d
 }
 
 
 /****BODY****/
-.recipes-body-container {
+.grid-container {
     margin-top: 150px;
 }
 .body-container {
@@ -92,7 +89,19 @@ h1 {
     width: 100%;
     border: 1px solid yellow;
 }
-
+.grid-container {
+    margin-top: 125px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+.summary {
+    font-size: 2em;
+}
+img {
+    max-width: 100%;
+}
 
 
 /**** RESPONSIVE THINGS ****/
@@ -177,6 +186,13 @@ h1 {
 
 .title {
     top: 100%;
+}
+.grid-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
 }
 
 .body-container {
