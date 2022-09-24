@@ -14,7 +14,6 @@
 
 .header-container {
     border: 3px solid yellow;
-    font-weight: lighter;
 }
 
 
@@ -23,7 +22,9 @@ h1 {
 }
 
 hr {
-  border-top: 3px double #ccd5ae;  
+  border-top: 6px double #ccd5ae;  
+  width: 20%;
+  margin: auto;
 }
 
 
@@ -108,6 +109,7 @@ hr {
     height: auto;
     border: 3px solid purple;
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .carousel-body {
@@ -118,6 +120,21 @@ hr {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.featured-hover-link{
+    position: relative;
+    height: 40%;
+    width: 60%;
+    top: -70%;
+    right: -20%;
+    
+}
+
+.featured-hover-link:hover{
+    background-color: #d4a373;
+    opacity: .75;
+    
 }
 .grid-container {
     margin-top: 125px;
