@@ -20,6 +20,11 @@
 
 h1 {
   font-size: 50px;
+  opacity: 1;
+}
+
+.carousel-caption p {
+    opacity: 1;
 }
 
 hr {
@@ -65,10 +70,7 @@ hr {
     font-size: 50px;
     text-align: center;
     vertical-align: middle;
-<<<<<<< HEAD
     font-weight: lighter;
-=======
->>>>>>> c9784b25d240b0aa2fa0e3fd4748c30b7842a2a4
 }
 
 
