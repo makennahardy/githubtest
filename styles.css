@@ -20,15 +20,21 @@
 
 h1 {
   font-size: 50px;
-  opacity: 1;
-}
-
-.carousel-caption p {
-    opacity: 1;
 }
 
 hr {
   border-top: 3px double #ccd5ae;  
+}
+
+
+.carousel-caption p {
+    color: black;
+    opacity: 1;
+}
+
+.carousel-caption h5 {
+    color: black;
+    opacity: 1;
 }
 
 .header-top {
@@ -55,6 +61,16 @@ hr {
     width: 330px;
     right: 50%;
     margin-right: -165px;
+}
+
+.bookmark {
+    position: absolute;
+   top: 100%; 
+   left: 10%;
+}
+.bookmark img{
+    height: 200px;
+    width: 120px;
 }
 
 
