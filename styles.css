@@ -65,11 +65,15 @@ hr {
     font-size: 50px;
     text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
+    font-weight: lighter;
+=======
+>>>>>>> c9784b25d240b0aa2fa0e3fd4748c30b7842a2a4
 }
 
 
 /****BODY****/
-.recipes-body-container {
+.grid-container {
     margin-top: 150px;
 }
 .body-container {
@@ -97,7 +101,19 @@ hr {
     width: 100%;
     object-fit: cover;
 }
-
+.grid-container {
+    margin-top: 125px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+.summary {
+    font-size: 2em;
+}
+img {
+    max-width: 100%;
+}
 
 
 /**** RESPONSIVE THINGS ****/
@@ -183,6 +199,13 @@ hr {
 
 .title {
     top: 100%;
+}
+.grid-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
 }
 
 .body-container {
