@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-}
-
 .navbar-brand {
     height: 50px;
 }
@@ -42,18 +39,35 @@ h1 {
     width: 100%;
 }
 
+.header-white {
+    position: absolute;
+    top: 112.5%;
+    background-color: white;
+    height: 100px;
+    width: 330px;
+    right: 50%;
+    margin-right: -165px;
+}
+
+
+
 .title {
     position: absolute;
-    width: 270px;
+    width: 260px;
     height: 70px;
     top: 137.5%;
     margin-top: -40px;
     right: 50%;
     margin-right: -135px;
     font-size: 50px;
+<<<<<<< HEAD
     text-align: center;
     vertical-align: middle;
+=======
+    font-weight: lighter;
+>>>>>>> 58fab6fde39f469594c8f07ce8bfc8098e26050d
 }
+
 
 /****BODY****/
 .recipes-body-container {
@@ -61,10 +75,22 @@ h1 {
 }
 .body-container {
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid aqua;
 }
 
-.body {
-    height: 1000px;
+.carousel-body {
+    height: auto;
+    display: flex;
+}
+
+.featured-recipe-body {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border: 1px solid yellow;
 }
 
 
@@ -90,12 +116,37 @@ h1 {
     margin-right: -200px;
 }
 
+.header-white {
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    height: 120px;
+    width: 320px;
+    right: 50%;
+    margin-right: -160px;
+}
+
 .title {
     top: 100%;
 }
 
 .body-container {
     margin-top: 150px;
+}
+
+.body-container {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.body {
+    display: flex;
+    width: 70%;
+    border: 1px solid pink;
+    height: auto;
 }
     
 }
@@ -114,13 +165,37 @@ h1 {
     margin-right: -300px;
 }
 
+.header-white {
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    height: 120px;
+    width: 520px;
+    right: 50%;
+    margin-right: -260px;
+}
+
 .title {
     top: 100%;
 }
 
 .body-container {
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid aqua;
 }
+
+.carousel-body {
+    display: flex;
+    width: 60%;
+    border: 1px solid pink;
+    height: auto;
+}
+
+
 
 
 }
