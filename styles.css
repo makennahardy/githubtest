@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/**** NAV BAR ADJUSTMENTS ****/
 .navbar-brand {
     height: 50px;
 }
@@ -11,12 +13,10 @@
 .nav-link {
     color: #d4a373;
 }
+/**** NAB BAR END****/
 
-.header-container {
-    display: flex;
-    align-content: center;
-}
 
+/**** GENERAL ****/
 a:hover {
     text-decoration: none;
 }
@@ -25,16 +25,17 @@ h1 {
   font-size: 50px;
 }
 
-
 hr {
   border-top: 6px double #ccd5ae;  
   width: 20%;
   margin: auto;
 }
 
-.bookmark {
-   opacity: 0;
+ol {
+    list-style-type: upper-roman
 }
+/**** GENERAL END ****/
+
 
 .carousel-caption p {
     color: black;
@@ -44,6 +45,17 @@ hr {
 .carousel-caption h5 {
     color: black;
     opacity: 1;
+}
+
+
+/**** HEADER ****/
+.header-container {
+    display: flex;
+    align-content: center;
+}
+
+.bookmark {
+   opacity: 0;
 }
 
 .header-top {
@@ -72,27 +84,6 @@ hr {
     margin-right: -165px;
 }
 
-.recipe-title {
-    position: absolute;
-    width: 260px;
-    height: 70px;
-    top: 50%;
-    margin-top: -40px;
-    right: 50%;
-    margin-right: -135px;
-    font-size: 50px;
-    text-align: center;
-    vertical-align: middle;
-    font-weight: lighter;
-}
-ol {
-    list-style-type: upper-roman
-}
-
-
-
-
-
 .title {
     position: absolute;
     width: 260px;
@@ -106,12 +97,18 @@ ol {
     vertical-align: middle;
     font-weight: lighter;
 }
+/**** HEADER END ****/
 
 
-/****BODY****/
+
+/****INDEX BODY START****/
 .body-container {
     margin-top: 150px;
     height: auto;
+}
+
+.carousel-body {
+    margin-bottom: 150px;
 }
 
 .featured-recipe-body {
@@ -128,30 +125,6 @@ ol {
     width: 100%;
     object-fit: cover;
 }
-
-.text-container {
-    text-align: left;
-    width: 100%;
-    border: 3px #ccd5ae;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.instructions {
-    padding-top: 100px;
-    text-align: center;
-    
-}
-h2 {
-    text-color: white;
-}
-
-.carousel-body {
-    margin-bottom: 150px;
-}
-
-
-
 
 .featured-hover-link{
     position: relative;
@@ -176,6 +149,7 @@ h2 {
 .featured-recipe-label {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .featured-label {
@@ -184,9 +158,29 @@ h2 {
     margin-bottom: 50px;
     font-size: 35px;
     font-weight: lighter;
-    
 }
 
+
+
+
+
+
+
+
+/**** RECIPE PAGES ****/
+.text-container {
+    text-align: left;
+    width: 100%;
+    border: 3px #ccd5ae;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.instructions {
+    padding-top: 100px;
+    text-align: center;
+}
 
 .summary {
     font-size: 2em;
@@ -203,27 +197,52 @@ img {
     margin-top: 10px;
 }
 
-.contact-us {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-us a{
-    color: black;
-}
-
-.contact-us a:hover{
-    color: #818181; /* gray */
-}
-
 .body-container {
     display: flex;
     justify-content: center;
 }
+/**** RECIPE PAGES END****/
 
+
+/****PUMPKIN BREAD STYLES****/
+.pumpkin-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.pumpkin-ingredients {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    background-color: #ccd5ae;
+    padding: 30px;
+}
+
+
+
+.pumpkin-list {
+    
+}
+
+.header-list {
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.title .pumpkin {
+    width: 1000px;
+}
+
+/****PUMPKIN BREAD END ****/
+
+
+/**** ABOUT ME START ****/
 .owners-body {
     display: flex;
     justify-content: center;
@@ -246,7 +265,10 @@ img {
     font-size: 25px;
     font-weight: lighter;
 }
+/**** ABOUT ME END ****/
 
+
+/**** FOOTER START ****/
 .footer-container {
     display: flex;
     justify-content: center;
@@ -260,14 +282,29 @@ img {
     justify-content: center;
     align-items: center;
     width: 20%;
-    height: 40%;
+    height: 30%;
     background-color: white;
+    border-radius: 30px;
+}
+
+.contact-us {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-us a{
     font-weight: lighter;
     font-size: 30px;
+    color: black;
 }
+
+.contact-us a:hover{
+    color: #818181; /* gray */
+}
+/**** FOOTER END ****/
 
 
 /**** RESPONSIVE THINGS ****/
@@ -299,10 +336,6 @@ img {
     width: 320px;
     right: 50%;
     margin-right: -160px;
-}
-
-.title {
-    top: 100%;
 }
 
 .body-container {
@@ -373,9 +406,6 @@ img {
     margin-right: -260px;
 }
 
-.title {
-    top: 100%;
-}
 .grid-container {
     margin-top: 200px;
     display: grid;
