@@ -248,17 +248,28 @@ img {
     justify-content: center;
 }
 
-.body {
+.owners-body {
     display: flex;
     justify-content: center;
 }
 
-.body img{
-    margin: 50px;
-    height: 600px;
-    width: auto;
+.owners-body img{
+    width: 100%;
 }
 
+.owners-body-container {
+    display: flex;
+    justify-content: center;   
+}
+
+.owners-body-caption{
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+}
 
 
 
@@ -407,6 +418,12 @@ img {
 .bookmark img{
     height: 200px;
     width: 120px;
+}
+
+.owners-body img{
+    margin: 50px;
+    height: 600px;
+    width: auto;
 }
 
 
