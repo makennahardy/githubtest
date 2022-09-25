@@ -243,6 +243,22 @@ img {
     color: #818181; /* gray */
 }
 
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.body img{
+    margin: 50px;
+    height: 600px;
+    width: auto;
+}
+
 
 
 
